@@ -9,7 +9,76 @@
     <title>GitHub Recreation</title>
 </head>
 <body>
-    
+<!-- PROFILE -->
+    <!-- profile container -->
+    <div class="container profile-container">
 
+    </div>
+    <!-- profile template -->
+    <script id="profile-template" type="text/x-handlebars-template">
+        <div class="profile">
+            <img src="" alt="">
+            <h3>JakeTurnick</h3>
+            <button>Edit Profile</button>
+            <div class="follows">
+                <p class="followers"></p>
+                <p class="following"></p>
+            </div>
+        </div>
+    </script>
+
+<!-- ORGS -->
+    <!-- org container -->
+    <div class="container org-container">
+        <div class="organizations">
+            <h3>Organizations</h3>
+        </div>
+    </div>
+    <!-- org template -->
+    <script id="org-template" type="text/x-handlebars-template">
+        <div class="org">
+            <img src="" alt="">
+            <!-- hover to see org name/info -->
+        </div>
+    </script>
+
+<!-- REPOS -->
+    <!-- repo container -->
+    <div class="containter repo-container">
+        
+    </div>
+    <!-- repo template -->
+    <script id="repo-template" type="text/x-handlebars-template">
+        {{#each repo}}
+            <!-- repo card -->
+            <div class="repo">
+                <!-- repo header -->
+                <div class="repo-title">
+                    <h3>repo-title</h3>
+                    <p>repo-privacy</p>
+                </div>
+                <!-- repo language & update -->
+                <div class="repo-details">
+                    <div class="lang">
+                        <i class="color-tag"></i>
+                        <p>primary language</p>
+                    </div>
+                    <div class="updated">
+                        <p>last updated -variable</p>
+                    </div>
+                </div>
+                <!-- repo actions -->
+
+
+                <!-- no status bar needed -->
+                
+
+            </div>
+
+        {{/each}}
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js" integrity="sha512-RNLkV3d+aLtfcpEyFG8jRbnWHxUqVZozacROI4J2F1sTaDqo1dPQYs01OMi1t1w9Y2FdbSCDSQ2ZVdAC8bzgAg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./main.js" type="module"></script>
 </body>
 </html>
