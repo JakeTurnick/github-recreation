@@ -1,0 +1,77 @@
+:root {
+    --light4: hsl(0, 0%, 20%);
+    --light3: hsl(0, 0%, 40%);
+    --light2: hsl(0, 0%, 60%);
+    --light1: hsl(0, 0%, 80%);
+}
+
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: hsl(240, 10%, 7%);
+    margin-top: 8%;
+}
+
+ img {
+    max-width: 100%;
+}
+
+.profile {
+    color: var(--light3);
+    border-bottom: 2px solid var(--light4);
+}
+
+.profile > h3 {
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+
+.num {
+    color: var(--light1);
+}
+
+.profile > img {
+    border-radius: 50%;
+}
+.profile > button {
+    width: 100%;
+    color: var(--light1);
+    background-color: hsl(240, 10%, 17%);
+    border: 2px solid var(--light4);
+    border-radius: 5%;
+}
+
+
+.org-container > h3 {
+    color: var(--light2);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.org {
+    color: var(--light1);
+}
+
+.org-name {display: none;}
+
+
+.org > img {
+    width: 12%;
+    border-radius: 15%;
+}
+
+.repo {
+    color: white;
+}
+
+.repo-name {
+    color: hsl(220, 70%, 70%);
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-decoration: none;
+}

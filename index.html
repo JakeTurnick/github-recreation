@@ -4,58 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/ff4418d11d.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
     <title>GitHub Recreation</title>
 </head>
-<body>
-<!-- PROFILE -->
-    <!-- profile container -->
-    <div class="container profile-container">
-
+<body class="container px-5">
+    
+<!-- HANDLEBAR TARGETS -->
+    <div class="row">
+        <aside class="col-3">
+            <!-- profile container -->
+            <div class="container profile-container"></div>
+            <!-- org container -->
+            <div class="container org-container pt-2">
+                <h3>Organizations</h3>
+            </div>
+        </aside>
+        <main class="col">
+            <!-- repo container -->
+            <div class="containter repo-container"></div>
+        </main>
+           
+            
     </div>
+        
+
+
+<!-- TEMPLATES -->
     <!-- profile template -->
     <script id="profile-template" type="text/x-handlebars-template">
-        <div class="profile">
-            <img src="" alt="">
-            <h3>JakeTurnick</h3>
-            <button>Edit Profile</button>
+        <div class="pb-3 profile">
+            <img class="mb-3" src={{avatar_url}} alt="Profile photo for user">
+            <h3 class="m-0">{{login}}</h3>
+            <button class="edit-profile my-3">Edit profile</button>
             <div class="follows">
-                <p class="followers"></p>
-                <p class="following"></p>
+                <p class="follower">
+                    <i class="fa-light fa-user-group"></i>
+                    <span><span class="num">{{followers}}</span> followers </span>
+                    <span>• <span class="num">{{following}}</span> Following</span>
+                </p>
+                <!-- <p class="following col align-self-start"></p> -->
             </div>
         </div>
     </script>
-
-<!-- ORGS -->
-    <!-- org container -->
-    <div class="container org-container">
-        <div class="organizations">
-            <h3>Organizations</h3>
-        </div>
-    </div>
     <!-- org template -->
     <script id="org-template" type="text/x-handlebars-template">
-        <div class="org">
-            <img src="" alt="">
-            <!-- hover to see org name/info -->
-        </div>
+        {{#each orgs}}
+            <div class="org">
+                <img class="org-img ps-2" src={{avatar_url}} alt="Organization logo / profile photo"/>
+                <!-- hover to see org name/info -->
+                <p class="org-name">{{login}}</p>
+            </div>
+        {{/each}}
     </script>
-
-<!-- REPOS -->
-    <!-- repo container -->
-    <div class="containter repo-container">
-        
-    </div>
     <!-- repo template -->
     <script id="repo-template" type="text/x-handlebars-template">
-        {{#each repo}}
+        {{#each repos}}
             <!-- repo card -->
             <div class="repo">
                 <!-- repo header -->
                 <div class="repo-title">
-                    <h3>repo-title</h3>
-                    <p>repo-privacy</p>
+                    <a class="repo-name">{{name}}</a>
+                    <p>{{private}}</p>
                 </div>
                 <!-- repo language & update -->
                 <div class="repo-details">

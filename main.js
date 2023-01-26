@@ -1,4 +1,4 @@
-import API_KEY from "./api";
+import API_KEY from "./api.js";
 
 const BASE_URL = "https://api.github.com/users/JakeTurnick";
 const ORG_URL = "https://api.github.com/users/JakeTurnick/orgs";
@@ -7,7 +7,7 @@ const userName = "JakeTurnick";
 
 // PROFILE SECTION
 function generateProfile(data) {
-  const source = document.getElementById("profile-template").innerHTMLl;
+  const source = document.getElementById("profile-template").innerHTML;
   const template = Handlebars.compile(source);
 
   const html = template(data);
@@ -19,25 +19,25 @@ function generateProfile(data) {
 
 // ORGANIZATION SECTION
 function generateOrgs(data) {
-  const source = document.getElementById("org-template").innerHTMLl;
+  const newData = { orgs: data };
+  const source = document.getElementById("org-template").innerHTML;
   const template = Handlebars.compile(source);
 
-  const html = template(data);
+  const html = template(newData);
 
-  document
-    .querySelector(".profile-container")
-    .insertAdjacentHTML("afterbegin", html);
+  document.querySelector(".org-container").insertAdjacentHTML("afterend", html);
 }
 
 // REPO SECTION
 function generateRepos(data) {
-  const source = document.getElementById("repo-template").innerHTMLl;
+  const newData = { repos: data };
+  const source = document.getElementById("repo-template").innerHTML;
   const template = Handlebars.compile(source);
 
-  const html = template(data);
+  const html = template(newData);
 
   document
-    .querySelector(".profile-container")
+    .querySelector(".repo-container")
     .insertAdjacentHTML("afterbegin", html);
 }
 
