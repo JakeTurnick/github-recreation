@@ -31,6 +31,7 @@ function generateOrgs(data) {
 // REPO SECTION
 function generateRepos(data) {
   const newData = { repos: data };
+  console.log("newdata", newData);
   const source = document.getElementById("repo-template").innerHTML;
   const template = Handlebars.compile(source);
 

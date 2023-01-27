@@ -64,18 +64,18 @@
             <!-- repo card -->
             <div class="repo">
                 <!-- repo header -->
-                <div class="repo-title">
-                    <a class="repo-name">{{name}}</a>
-                    <p>{{private}}</p>
+                <div class="repo-title d-flex position-relative">
+                    <a class="repo-name position-relative">{{name}}</a>
+                    <p class="visibility ms-2 px-2 py-1">{{visibility}}</p>
                 </div>
                 <!-- repo language & update -->
-                <div class="repo-details">
-                    <div class="lang">
-                        <i class="color-tag"></i>
-                        <p>primary language</p>
+                <div class="repo-details d-flex">
+                    <div class="lang d-flex justify-content-start">
+                        <p class="color-tag"></p>
+                        <p>{{language}}</p>
                     </div>
-                    <div class="updated">
-                        <p>last updated -variable</p>
+                    <div class="updated ps-4">
+                        <p>Updated {{updated_at}}</p>
                     </div>
                 </div>
                 <!-- repo actions -->
