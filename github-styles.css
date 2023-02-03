@@ -1,0 +1,594 @@
+.ABAP {
+    background-color: #E8274B;
+  }
+  .ActionScript {
+    background-color: #882B0F;
+  }
+  .Ada {
+    background-color: #02F88C;
+  }
+  .Agda {
+    background-color: #315665;
+  }
+  .AGS-Script {
+    background-color: #B9D9FF;
+  }
+  .Alloy {
+    background-color: #64C800;
+  }
+  .AMPL {
+    background-color: #E6EFBB;
+  }
+  .ANTLR {
+    background-color: #9DC3FF;
+  }
+  .API-Blueprint {
+    background-color: #2ACCA8;
+  }
+  .APL {
+    background-color: #5A8164;
+  }
+  .Arc {
+    background-color: #AA2AFE;
+  }
+  .Arduino {
+    background-color: #BD79D1;
+  }
+  .ASP {
+    background-color: #6A40FD;
+  }
+  .AspectJ {
+    background-color: #A957B0;
+  }
+  .Assembly {
+    background-color: #6E4C13;
+  }
+  .ATS {
+    background-color: #1AC620;
+  }
+  .AutoHotkey {
+    background-color: #6594B9;
+  }
+  .AutoIt {
+    background-color: #1C3552;
+  }
+  .BlitzMax {
+    background-color: #CD6400;
+  }
+  .Boo {
+    background-color: #D4BEC1;
+  }
+  .Brainfuck {
+    background-color: #2F2530;
+  }
+  .C-Sharp {
+    background-color: #178600;
+  }
+  .C {
+    background-color: #555555;
+  }
+  .Chapel {
+    background-color: #8DC63F;
+  }
+  .Cirru {
+    background-color: #CCCCFF;
+  }
+  .Clarion {
+    background-color: #DB901E;
+  }
+  .Clean {
+    background-color: #3F85AF;
+  }
+  .Click {
+    background-color: #E4E6F3;
+  }
+  .Clojure {
+    background-color: #DB5855;
+  }
+  .CoffeeScript {
+    background-color: #244776;
+  }
+  .ColdFusion-CFC {
+    background-color: #ED2CD6;
+  }
+  .ColdFusion {
+    background-color: #ED2CD6;
+  }
+  .Common-Lisp {
+    background-color: #3FB68B;
+  }
+  .Component-Pascal {
+    background-color: #B0CE4E;
+  }
+  .cpp {
+    background-color: #F34B7D;
+  }
+  .Crystal {
+    background-color: #776791;
+  }
+  .CSS {
+    background-color: #563D7C;
+  }
+  .D {
+    background-color: #BA595E;
+  }
+  .Dart {
+    background-color: #00B4AB;
+  }
+  .Diff {
+    background-color: #88DDDD;
+  }
+  .DM {
+    background-color: #447265;
+  }
+  .Dogescript {
+    background-color: #CCA760;
+  }
+  .Dylan {
+    background-color: #6C616E;
+  }
+  .E {
+    background-color: #CCCE35;
+  }
+  .Eagle {
+    background-color: #814C05;
+  }
+  .eC {
+    background-color: #913960;
+  }
+  .ECL {
+    background-color: #8A1267;
+  }
+  .edn {
+    background-color: #DB5855;
+  }
+  .Eiffel {
+    background-color: #946D57;
+  }
+  .Elixir {
+    background-color: #6E4A7E;
+  }
+  .Elm {
+    background-color: #60B5CC;
+  }
+  .Emacs-Lisp {
+    background-color: #C065DB;
+  }
+  .EmberScript {
+    background-color: #FFF4F3;
+  }
+  .Erlang {
+    background-color: #B83998;
+  }
+  .F-Sharp {
+    background-color: #B845FC;
+  }
+  .Factor {
+    background-color: #636746;
+  }
+  .Fancy {
+    background-color: #7B9DB4;
+  }
+  .Fantom {
+    background-color: #DBDED5;
+  }
+  .FLUX {
+    background-color: #88CCFF;
+  }
+  .Forth {
+    background-color: #341708;
+  }
+  .FORTRAN {
+    background-color: #4D41B1;
+  }
+  .FreeMarker {
+    background-color: #0050B2;
+  }
+  .Frege {
+    background-color: #00CAFE;
+  }
+  .Game-Maker-Language {
+    background-color: #8FB200;
+  }
+  .Glyph {
+    background-color: #E4CC98;
+  }
+  .Gnuplot {
+    background-color: #F0A9F0;
+  }
+  .Go {
+    background-color: #375EAB;
+  }
+  .Golo {
+    background-color: #88562A;
+  }
+  .Gosu {
+    background-color: #82937F;
+  }
+  .Grammatical-Framework {
+    background-color: #79AA7A;
+  }
+  .Groovy {
+    background-color: #E69F56;
+  }
+  .Handlebars {
+    background-color: #01A9D6;
+  }
+  .Harbour {
+    background-color: #0E60E3;
+  }
+  .Haskell {
+    background-color: #29B544;
+  }
+  .Haxe {
+    background-color: #DF7900;
+  }
+  .HTML {
+    background-color: #E44B23;
+  }
+  .Hy {
+    background-color: #7790B2;
+  }
+  .IDL {
+    background-color: #A3522F;
+  }
+  .Io {
+    background-color: #A9188D;
+  }
+  .Ioke {
+    background-color: #078193;
+  }
+  .Isabelle {
+    background-color: #FEFE00;
+  }
+  .J {
+    background-color: #9EEDFF;
+  }
+  .Java {
+    background-color: #B07219;
+  }
+  .JavaScript {
+    background-color: #F1E05A;
+  }
+  .JFlex {
+    background-color: #DBCA00;
+  }
+  .JSONiq {
+    background-color: #40D47E;
+  }
+  .Julia {
+    background-color: #A270BA;
+  }
+  .Jupyter-Notebook {
+    background-color: #DA5B0B;
+  }
+  .Kotlin {
+    background-color: #F18E33;
+  }
+  .KRL {
+    background-color: #28431F;
+  }
+  .Lasso {
+    background-color: #999999;
+  }
+  .Latte {
+    background-color: #A8FF97;
+  }
+  .Lex {
+    background-color: #DBCA00;
+  }
+  .LFE {
+    background-color: #004200;
+  }
+  .LiveScript {
+    background-color: #499886;
+  }
+  .LOLCODE {
+    background-color: #CC9900;
+  }
+  .LookML {
+    background-color: #652B81;
+  }
+  .LSL {
+    background-color: #3D9970;
+  }
+  .Lua {
+    background-color: #000080;
+  }
+  .Makefile {
+    background-color: #427819;
+  }
+  .Mask {
+    background-color: #F97732;
+  }
+  .Matlab {
+    background-color: #BB92AC;
+  }
+  .Max {
+    background-color: #C4A79C;
+  }
+  .MAXScript {
+    background-color: #00A6A6;
+  }
+  .Mercury {
+    background-color: #FF2B2B;
+  }
+  .Metal {
+    background-color: #8F14E9;
+  }
+  .Mirah {
+    background-color: #C7A938;
+  }
+  .MTML {
+    background-color: #B7E1F4;
+  }
+  .NCL {
+    background-color: #28431F;
+  }
+  .Nemerle {
+    background-color: #3D3C6E;
+  }
+  .nesC {
+    background-color: #94B0C7;
+  }
+  .NetLinx {
+    background-color: #0AA0FF;
+  }
+  .NetLinx-ERB {
+    background-color: #747FAA;
+  }
+  .NetLogo {
+    background-color: #FF6375;
+  }
+  .NewLisp {
+    background-color: #87AED7;
+  }
+  .Nimrod {
+    background-color: #37775B;
+  }
+  .Nit {
+    background-color: #009917;
+  }
+  .Nix {
+    background-color: #7E7EFF;
+  }
+  .Nu {
+    background-color: #C9DF40;
+  }
+  .Objective-C {
+    background-color: #438EFF;
+  }
+  .Objective-Cpp {
+    background-color: #6866FB;
+  }
+  .Objective-J {
+    background-color: #FF0C5A;
+  }
+  .OCaml {
+    background-color: #3BE133;
+  }
+  .Omgrofl {
+    background-color: #CABBFF;
+  }
+  .ooc {
+    background-color: #B0B77E;
+  }
+  .Opal {
+    background-color: #F7EDE0;
+  }
+  .Oxygene {
+    background-color: #CDD0E3;
+  }
+  .Oz {
+    background-color: #FAB738;
+  }
+  .Pan {
+    background-color: #CC0000;
+  }
+  .Papyrus {
+    background-color: #6600CC;
+  }
+  .Parrot {
+    background-color: #F3CA0A;
+  }
+  .Pascal {
+    background-color: #B0CE4E;
+  }
+  .PAWN {
+    background-color: #DBB284;
+  }
+  .Perl {
+    background-color: #0298C3;
+  }
+  .Perl6 {
+    background-color: #0000FB;
+  }
+  .PHP {
+    background-color: #4F5D95;
+  }
+  .PigLatin {
+    background-color: #FCD7DE;
+  }
+  .Pike {
+    background-color: #005390;
+  }
+  .PLSQL {
+    background-color: #DAD8D8;
+  }
+  .PogoScript {
+    background-color: #D80074;
+  }
+  .Processing {
+    background-color: #0096D8;
+  }
+  .Prolog {
+    background-color: #74283C;
+  }
+  .Propeller-Spin {
+    background-color: #7FA2A7;
+  }
+  .Puppet {
+    background-color: #302B6D;
+  }
+  .Pure Data {
+    background-color: #91DE79;
+  }
+  .PureBasic {
+    background-color: #5A6986;
+  }
+  .PureScript {
+    background-color: #1D222D;
+  }
+  .Python {
+    background-color: #3572A5;
+  }
+  .QML {
+    background-color: #44A51C;
+  }
+  .R {
+    background-color: #198CE7;
+  }
+  .Racket {
+    background-color: #22228F;
+  }
+  .Ragel-in-Ruby-Host {
+    background-color: #9D5200;
+  }
+  .RAML {
+    background-color: #77D9FB;
+  }
+  .Rebol {
+    background-color: #358A5B;
+  }
+  .Red {
+    background-color: #EE0000;
+  }
+  .Ren-Py {
+    background-color: #FF7F7F;
+  }
+  .Rouge {
+    background-color: #CC0088;
+  }
+  .Ruby {
+    background-color: #701516;
+  }
+  .Rust {
+    background-color: #DEA584;
+  }
+  .SaltStack {
+    background-color: #646464;
+  }
+  .SAS {
+    background-color: #B34936;
+  }
+  .Scala {
+    background-color: #DC322F;
+  }
+  .Scheme {
+    background-color: #1E4AEC;
+  }
+  .Self {
+    background-color: #0579AA;
+  }
+  .Shell {
+    background-color: #89E051;
+  }
+  .Shen {
+    background-color: #120F14;
+  }
+  .Slash {
+    background-color: #007EFF;
+  }
+  .Slim {
+    background-color: #FF8F77;
+  }
+  .Smalltalk {
+    background-color: #596706;
+  }
+  .SourcePawn {
+    background-color: #5C7611;
+  }
+  .SQF {
+    background-color: #3F3F3F;
+  }
+  .Squirrel {
+    background-color: #800000;
+  }
+  .Stan {
+    background-color: #B2011D;
+  }
+  .Standard-ML {
+    background-color: #DC566D;
+  }
+  .SuperCollider {
+    background-color: #46390B;
+  }
+  .Swift {
+    background-color: #FFAC45;
+  }
+  .SystemVerilog {
+    background-color: #DAE1C2;
+  }
+  .Tcl {
+    background-color: #E4CC98;
+  }
+  .TeX {
+    background-color: #3D6117;
+  }
+  .Turing {
+    background-color: #45F715;
+  }
+  .TypeScript {
+    background-color: #2B7489;
+  }
+  .Unified-Parallel-C {
+    background-color: #4E3617;
+  }
+  .Unity3D-Asset {
+    background-color: #AB69A1;
+  }
+  .UnrealScript {
+    background-color: #A54C4D;
+  }
+  .Vala {
+    background-color: #FBE5CD;
+  }
+  .Verilog {
+    background-color: #B2B7F8;
+  }
+  .VHDL {
+    background-color: #ADB2CB;
+  }
+  .VimL {
+    background-color: #199F4B;
+  }
+  .Visual-Basic {
+    background-color: #945DB7;
+  }
+  .Volt {
+    background-color: #1F1F1F;
+  }
+  .Vue {
+    background-color: #2C3E50;
+  }
+  .Web-Ontology-Language {
+    background-color: #9CC9DD;
+  }
+  .wisp {
+    background-color: #7582D1;
+  }
+  .X10 {
+    background-color: #4B6BEF;
+  }
+  .xBase {
+    background-color: #403A40;
+  }
+  .XC {
+    background-color: #99DA07;
+  }
+  .XQuery {
+    background-color: #5232E7;
+  }
+  .Zephir {
+    background-color: #118F9E;
+  }
