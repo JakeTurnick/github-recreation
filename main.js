@@ -4,8 +4,6 @@ const BASE_URL = "https://api.github.com/users/JakeTurnick";
 const ORG_URL = "https://api.github.com/users/JakeTurnick/orgs";
 const REPO_URL = "https://api.github.com/users/JakeTurnick/repos";
 const userName = "JakeTurnick";
-const langBubble = document.querySelectorAll(".color-tag");
-console.log("langBubble", langBubble);
 
 // PROFILE SECTION
 function generateProfile(data) {
@@ -36,6 +34,12 @@ function generateRepos(data) {
 	console.log("newdata", newData);
 	const source = document.getElementById("repo-template").innerHTML;
 	const template = Handlebars.compile(source);
+
+	// newData.repos.forEach((repo) => {
+	// 	let time = moment();
+	// 	console.log("repos", time);
+	// 	//replace the updated_at with the difference between that and current time
+	// });
 
 	const html = template(newData);
 
