@@ -1,4 +1,4 @@
-import API_KEY from "./api.js";
+// import API_KEY from "./api.js";
 
 const BASE_URL = "https://api.github.com/users/JakeTurnick";
 const ORG_URL = "https://api.github.com/users/JakeTurnick/orgs";
@@ -34,6 +34,8 @@ function generateRepos(data) {
 	console.log("newdata", newData);
 	const source = document.getElementById("repo-template").innerHTML;
 	const template = Handlebars.compile(source);
+
+	newData.repos.forEach((repo) => {});
 
 	// newData.repos.forEach((repo) => {
 	// 	let time = moment();
