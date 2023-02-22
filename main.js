@@ -3,6 +3,18 @@ const ORG_URL = "https://api.github.com/users/JakeTurnick/orgs";
 const REPO_URL = "https://api.github.com/users/JakeTurnick/repos";
 const userName = "JakeTurnick";
 
+// HEADER PROFILE
+function generateHeaderProfile(data) {
+	const source = document.getElementById("header-profile-template").innerHTML;
+	const template = Handlebars.compile(source);
+
+	const html = template(data);
+
+	document
+		.querySelector(".profile-container")
+		.insertAdjacentHTML("afterbegin", html);
+}
+
 // PROFILE SECTION
 function generateProfile(data) {
 	const source = document.getElementById("profile-template").innerHTML;
@@ -33,6 +45,11 @@ function generateRepos(data) {
 	const source = document.getElementById("repo-template").innerHTML;
 	const template = Handlebars.compile(source);
 
+	let langList = [];
+	Object.keys(newData).forEach((repo) => {
+		console.log(repo);
+	});
+
 	// newData.repos.forEach((repo) => {});
 
 	// newData.repos.forEach((repo) => {
@@ -45,7 +62,7 @@ function generateRepos(data) {
 
 	document
 		.querySelector(".repo-container")
-		.insertAdjacentHTML("afterbegin", html);
+		.insertAdjacentHTML("beforeend", html);
 }
 
 fetch(BASE_URL)

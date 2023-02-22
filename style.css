@@ -12,8 +12,61 @@ html {
     box-sizing: inherit;
 }
 
+header {
+    width: 100%;
+    max-height: 10%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-actions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: hsl(0, 0%, 90%);
+}
+
+.header-profile > * {
+    padding: 1rem;
+}
+
+header > i {
+    color: hsl(0, 0%, 90%);
+}
+
+nav {
+    display: inline-block;
+}
+
+nav > a {
+    text-decoration: none;
+    color: hsl(0, 0%, 90%);
+    font-size: .8rem;
+}
+
+nav > a:hover {
+    color: hsl(0, 0%, 60%)
+}
+
+
+#gh-logo {
+    height: 60px;
+}
+
 body {
     background-color: hsl(240, 10%, 7%);
+    /* margin-top: 8%; */
+}
+
+#page {
     margin-top: 8%;
 }
 
@@ -67,16 +120,18 @@ body {
 }
 
 
-main {
+main > * {
     border-top: 2px solid var(--light4);
 }
 
 .repo {
     color: var(--light3);
     border-bottom: 2px solid var(--light4);
+    display: flex;
 }
 
 .repo-title {
+    margin-top: 10px;
     position: relative;
 }
 .visibility {
@@ -110,4 +165,59 @@ main {
     position: relative;
     top: .4rem;
     margin-right: .1rem;
+}
+
+.repo-actions {
+    margin: auto 0;
+    margin-left: auto;
+
+}
+
+.repo-actions > button {
+    margin: 0;
+    background-color: var(--light4);
+    color: var(--light1);
+    border: solid 1px var(--light3);
+    border-radius: 5px;
+}
+
+.repo-actions > button > i {
+    transform: scale(.75);
+}
+
+.search-form {
+    display: flex;
+}
+
+.filters {
+    display: flex;
+}
+
+.filters > * {
+    margin: .25rem;
+    background-color: var(--light4);
+}
+
+.search-form > * {
+    margin: auto;
+}
+
+#search-bar {
+    width: 50%;
+    background-color: var(--light4);
+    border: 1px solid var(--light3);
+    border-radius: 4px;
+}
+
+
+
+#new-repo {
+    background-color: hsl(120, 60%, 40%);
+    color: white;
+    padding: .5rem;
+    border: none;
+    border-radius: 6px;
+}
+#new-repo > * {
+    margin: 0 10px;
 }
